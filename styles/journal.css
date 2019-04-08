@@ -1,0 +1,8 @@
+main.journal {
+  flex-flow: column wrap;
+}
+
+article img {
+  max-width: 300px;
+}
+

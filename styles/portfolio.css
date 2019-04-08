@@ -1,0 +1,74 @@
+main.portfolio {
+  grid-column: span 2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.portfolio article {
+  max-width: 450px;
+  height: auto;
+  background-color :rgb(255, 255, 255);
+  padding: 2em;
+  /* -webkit-box-shadow: 10px 10px 0px -1px rgb(36, 36, 36);
+  -moz-box-shadow: 10px 10px 0px -1px rgb(36, 36, 36); */
+  box-shadow: 10px 10px 0px -1px rgb(36, 36, 36), 20px 20px 0px -1px pink;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-delay: 0s; 
+}
+
+
+article.project header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.github {
+  width: 28px;
+}
+
+a.github:hover {
+  opacity: .5;
+}
+
+.project h6 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 255, 0.664);
+  text-transform: uppercase;
+}
+
+ul.concepts {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.concepts li {
+  border: solid .5px rgb(36, 36, 36);
+  font-family: 'Space Mono', monospace;
+  font-kerning: normal;
+  font-size: 11px;
+  padding: 0 .5rem;
+  margin: 0 .5rem .5rem 0;
+}
+
+.concepts li::first-line {
+  /* margin-left: auto; */
+}
+
+article h1::first-line {
+  line-height: 0;
+}
+
+article.project p {
+  padding-right: .75rem;
+  font-size: 14px;
+  line-height: 20px;
+}
+

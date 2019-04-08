@@ -1,0 +1,14 @@
+PROJECTS
+
+Rideshare
+  Github: https://github.com/aphunk/ride-share/blob/master/rideshare.rb
+  Description: 
+    We will look at data of drivers of a rideshare service and their ride history. We want to be able to see how many rides each driver has given and how much money a driver has made.
+
+    Currently, the data is stored in a CSV file. In this assignment, you should take this data and thoughtfully organize it into one single variable that is one single nested data structure. This nested data structure should use both arrays and hashes.
+    
+  Concepts:
+    
+    Nested data structures with Arrays and Hashes
+    Working with CSV files
+    Accessing data using iteration

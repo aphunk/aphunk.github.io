@@ -1,0 +1,22 @@
+#amy {
+  width: 70%;
+  margin-left: auto;
+}
+
+main.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 20px;
+  align-items: initial;
+}
+
+.about p {
+  padding: 0 2rem;
+  line-height: 24px;
+  margin-right: 4rem;
+}
+
+.about a img {
+  width: 20px;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
